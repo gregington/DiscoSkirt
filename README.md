@@ -36,3 +36,9 @@ DELAY macro is available as a convenience that breaks larger delays into smaller
 for a mode change every 10ms. If a mode change has been detected, then control will be returned
 to the main loop which will advance the mode.
 
+Credits
+-------
+
+This project has built upon the work of others:
+* The original [http://learn.adafruit.com/sparkle-skirt](Sparkle Skirt), designed by Becky Stern of Adafruit.
+* Kasper Kamperman's [http://www.kasperkamperman.com/blog/arduino/arduino-programming-hsb-to-rgb/](HSB to RGB conversion) function
