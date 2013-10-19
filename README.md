@@ -4,10 +4,10 @@ DiscoSkirt
 An Arduino sketch for a skirt that had RGB LEDs and can respond to motion or sound.
 
 The hardware consists of
-* A [http://www.adafruit.com/products/659](Flora) wearable microcontroller.
-* A Flora [http://www.adafruit.com/products/1247](Accelerometer Sensor) based on the LSM303
-* A [https://www.sparkfun.com/products/9868](ADMP401) MEMS microphone breakout board
-* 12 Flora [http://www.adafruit.com/products/1260](Smart Neo Pixels)
+* A [Flora](http://www.adafruit.com/products/659) wearable microcontroller.
+* A Flora [Accelerometer Sensor](http://www.adafruit.com/products/1247) based on the LSM303
+* A [ADMP401](https://www.sparkfun.com/products/9868) MEMS microphone breakout board
+* 12 Flora [Smart Neo Pixels](http://www.adafruit.com/products/1260)
 * A switch
 
 Build instructions can be found at [http://www.gregington.com/2013/10/disco-skirt.html].
@@ -16,10 +16,10 @@ Build instructions can be found at [http://www.gregington.com/2013/10/disco-skir
 Libraries
 ---------
 The sketch needs to have the following libraries installed in the Arduino IDE:
-* [https://github.com/adafruit/Adafruit_Sensor](Adafruit_Sensor) - the Base Adafruit sensor library
-* [https://github.com/adafruit/Adafruit_LSM303DLHC](Adafruit_LSM303) - to read the accelerometer
-* [https://github.com/adafruit/Adafruit_NeoPixel](Adafruit_NeoPixel) - to drive the LEDs
-* [https://code.google.com/p/arduino-pinchangeint/](PinChangeInt) - An interrupt library
+* [Adafruit_Sensor](https://github.com/adafruit/Adafruit_Sensor) - the Base Adafruit sensor library
+* [Adafruit_LSM303](https://github.com/adafruit/Adafruit_LSM303DLHC) - to read the accelerometer
+* [Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) - to drive the LEDs
+* [PinChangeInt](https://code.google.com/p/arduino-pinchangeint/) - An interrupt library
 * [FHT](http://wiki.openmusiclabs.com/wiki/ArduinoFHT) - a Fast Hartley Transform for responding to sound
 
 
