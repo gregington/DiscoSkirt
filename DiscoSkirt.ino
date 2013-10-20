@@ -3,8 +3,8 @@
 #define NO_PORTD_PINCHANGES
 
 // FHT configuration for sound visualisation
-#define OCTAVE 1   // Group FY buckets into octaves
-#define OCT_NORM 0 // Don't normalise octave intensities by 
+#define OCTAVE 1   // Group buckets into octaves
+#define OCT_NORM 0 // Don't normalise octave intensities by number of bins
 #define FHT_N 256
 
 
