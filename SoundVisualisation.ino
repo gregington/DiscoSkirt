@@ -15,12 +15,12 @@ void soundVisualisation() {
   ADCSRA = 0xe5; // set the adc to free running mode
   ADCSRB = (ADCSRB & ~(1 << MUX5)) | (((13 >> 3) & 0x01) << MUX5);
   ADMUX = 0x40 | (13 & 0x7); // use adc13
-  DIDR0 = 0x01; // turn off the digital input for adc0    
+  DIDR2 = 13; // turn off the digital input for adc13
   
   // Use out own while loop to reduce timing jutter
   while(1) {    
     TIMSK0 = 0; // turn off timer0 for lower jitter
-    for (int i = 0 ; i < FHT_N ; i++) { // save 256 samples
+    for (int i = 0 ; i < FHT_N ; i++) {
       while(!(ADCSRA & 0x10)); // wait for adc to be ready
       ADCSRA = 0xf5; // restart adc
       byte m = ADCL; // fetch adc data
